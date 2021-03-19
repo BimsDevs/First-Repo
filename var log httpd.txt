@@ -1,0 +1,42 @@
+
+
+Remove httpd
+sudo yum remove httpd
+
+
+sudo rm -rf /etc/httpd
+
+To double check:  ls -l /var/log
+
+sudo rm -rf /var/log/httpd
+
+If busy, unmount it. (umount)
+To unmount, remove -o.
+
+Then remove log file
+sudo rm -rf /var/log/httpd
+
+NFS serv er
+sudo exportfs -arv
+
+cd /mnt
+sudo rm -rf html
+
+cd /
+
+
+Webserver
+sudo rm -rf /var/www/html
+
+
+Re install httpd
+
+curl localhost
+
+https://ecs-network.serv.pacific.edu/past-courses/2014-fall-ecpe-177/projects/project-5
+
+
+
+
+
+
